@@ -1,0 +1,26 @@
+.con{
+    width:100%;
+    text-align:center;
+    margin-top:4%;
+}
+
+.fo{
+    width: 450px;
+    padding: 2%;
+    background: rgba(50,50,50, .6);
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 29px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,1.0);
+}
+
+.admin{
+    margin-top: 4%;
+    width: 100%;
+    padding: 2%;
+    background: rgba(50,50,50, .6);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 29px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,1.0);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="con">
+        <div class="fo">
+            <label>Introduce tu usuario</label>
+            <input type="text" id="user" placeholder="Usuario">
+            <br>
+            <label>Introduce tu contraseña</label>
+            <input type="password" id="pass" placeholder="Contraseña">
+            <button onclick="LogIn()">Aceptar</button>
+
+        </div>
+    </div>
+
+    <div class="con">
+        <div class="fo">
+            <h2>Registro</h2>
+            <label>Introduce tu usuario</label>
+            <input type="text" id="userR" placeholder="Usuario">
+            <br>
+            <label>Introduce tu contraseña</label>
+            <input onchange="Register()" type="password" id="passR" placeholder="Contraseña">
+            <button onclick="Register()">Aceptar</button>
+        </div>
+    </div>
+    <div class="admin">
+        <h2>Administrador</h2>
+        <table id="tabla">
+        </table>
+    </div>
+</body>
+
+</html>
